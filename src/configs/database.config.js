@@ -1,7 +1,7 @@
 module.exports = {
-  HOST: "35.226.15.199",
-  USER: "root",
-  PASSWORD: "ayh&YBi^6o;d?k~6",
+  HOST: "34.136.55.228",
+  USER: "abdansm",
+  PASSWORD: "",
   DB: "ma_notes_api",
   DIALECT: "mysql",
 };
