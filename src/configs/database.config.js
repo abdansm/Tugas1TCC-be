@@ -1,7 +1,10 @@
+require('dotenv').config()
+
+
 module.exports = {
-  HOST: "34.29.233.49",
-  USER: "abdansm",
-  PASSWORD: "Kalkun157@",
-  DB: "ma_notes_api",
-  DIALECT: "mysql",
+  HOST: process.env.DB_HOST,
+  USER: process.env.DB_USERNAME,
+  PASSWORD: process.env.DB_PASSWORD,
+  DB: process.env.DB_NAME,
+  DIALECT: process.env.DB_DIALECT
 };
