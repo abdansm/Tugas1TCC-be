@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 database
   .sync({ force: false })
   .then(() => {
-    console.info("database synced");
+    console.info("database synced1");
   })
   .catch((err) => {
     console.error("failed to sync database: " + err.message);
